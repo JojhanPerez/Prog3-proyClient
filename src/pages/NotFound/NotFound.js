@@ -2,13 +2,13 @@ import React from "react";
 import "./NotFound.scss";
 export default function NotFound() {
   return (
-    <section class="page_404">
-      <div class="container">
-        <div class="row">
-          <div class="col">
-            <div class="four_zero_four_bg">
+    <section className="page_404">
+      <div className="container">
+        <div className="row">
+          <div className="col">
+            <div className="four_zero_four_bg">
               <img
-                src="https://media3.giphy.com/media/VwoJkTfZAUBSU/giphy.gif?cid=ecf05e47limtxig4fjawtlqoypisb2511ydfcpxcfcdnzk8l&rid=giphy.gif&ct=g"
+                src="https://media.giphy.com/media/SDUiharA58JhGCwDqP/giphy.gif"
                 alt=""
               ></img>
             </div>

@@ -2,8 +2,10 @@
 
 .menu-top {
   display: flex;
+  background-color: $background-grey;
+  width: 100%;
   button {
-    color: $font-grey-dark;
+    color: $font-grey-light;
 
     &:hover {
       color: $primary-color-hover;
@@ -16,7 +18,7 @@
 
   &__left {
     &-logo {
-      width: 70px;
+      width: 30%;
       padding: 0 10px;
     }
   }

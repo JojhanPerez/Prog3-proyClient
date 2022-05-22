@@ -6,24 +6,18 @@ import AdminSignIn from "../pages/Admin/SignIn";
 import Home from "../pages/Home";
 import NotFound from "../pages/NotFound/NotFound";
 import Contact from "../pages/Contact";
-import AdminLogIn from "../pages/Admin/LogIn"
 
 const routesAdmin = [
   {
-    path: "/admin",
+    path: "/admin/*",
     layout: LayoutAdmin,
     component: AdminHome,
   },
   {
-    path: "/admin/sigin",
+    path: "/admin/login/*",
     layout: LayoutAdmin,
     component: AdminSignIn,
   },
-  {
-    path: "/admin/login",
-    layout: LayoutAdmin,
-    component: AdminLogIn,
-  }
 ];
 
 /* Ruta home, notfound */
