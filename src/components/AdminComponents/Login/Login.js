@@ -8,9 +8,7 @@ export default function Login() {
     <Form className="login-form">
       <Form.Item>
         <Input
-         prefix={
-          <UserOutlined />
-        }
+          prefix={<UserOutlined />}
           type="email"
           name="email"
           placeholder="Correo electronico"
@@ -19,9 +17,7 @@ export default function Login() {
       </Form.Item>
       <Form.Item>
         <Input
-          prefix={
-            <UserOutlined />
-          }
+          prefix={<UserOutlined />}
           type="password"
           name="password"
           placeholder="Contraseña"

@@ -71,13 +71,13 @@ export default function RegisterForm() {
       } else {
         const result = await signUpApi(inputs)
         console.log(result)
-        if (!result.user) {
+        if (!result.user_creado) {
           notification["error"] ({
             message: result.message
           })
         } else {
           notification["success"] ({
-            message: "Felicidades a sido registrado exitosamente"
+            message: result.message
           })
           resetForm()
         }
